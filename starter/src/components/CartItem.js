@@ -1,6 +1,8 @@
 import React from 'react'
+
 import {ChevronDown, ChevronUp} from '../icons'
 function CartItem({id, img, title, price, amount}) {
+  
 
   return (
 <article className='cart-item'>
