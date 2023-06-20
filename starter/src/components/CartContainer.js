@@ -33,7 +33,7 @@ function CartContainer() {
         <hr/>
         <div className='cart-total'>
             <h4>
-                total <span>{total.toFixed(2)}</span>
+                total <span>{total}</span>
             </h4>
         </div>
         <button onClick={()=>dispatch(openModal())} className='btn clear-btn'>clear</button>
